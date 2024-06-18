@@ -14,7 +14,7 @@ local UI = Material.Load({
 
 UIS.InputBegan:Connect(function(input, gameProcessedEvent)
     if input.KeyCode == Enum.KeyCode.Insert then
-        game.CoreGui["sword supplements"].Enabled = not game.CoreGui["sword supplements"].Enabled
+        game.CoreGui["Vitamin D3"].Enabled = not game.CoreGui["Vitamin D3"].Enabled
     end
 end)
 
